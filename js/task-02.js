@@ -6,3 +6,7 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+console.log(ingredients)
+
+const ingridientsEl = document.querySelector('#ingredients');
+console.log(ingridientsEl);
