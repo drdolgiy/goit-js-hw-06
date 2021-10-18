@@ -13,4 +13,4 @@ ingredients.forEach(ingredient => {
   listEl.textContent = ingredient;
   listEl.classList.add('item');
   ingredientsEl.append(listEl);
-} ) 
+})
