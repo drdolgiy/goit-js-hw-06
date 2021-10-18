@@ -9,13 +9,13 @@ const initialValue = document.querySelector('#value');
 
 increaseButton.addEventListener('click', onIncreaseButtonClick );
 function onIncreaseButtonClick() {
-   counterValue += 1;
+   counterValue -= 1;
  initialValue.textContent = counterValue ;
 }
 
 reduceButton.addEventListener('click', onReduceButtonClick );
 function onReduceButtonClick() {
-   counterValue -= 1;
+   counterValue += 1;
  initialValue.textContent = counterValue ;
 }
 
