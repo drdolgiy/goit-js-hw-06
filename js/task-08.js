@@ -9,7 +9,7 @@ function onLoginFormClick(event) {
   const {
     elements: { email, password },
   } = event.currentTarget;
-  if ((email.value, password.value === "")) {
+  if (email.value === "" || password.value === "") {
     return alert("Bсе поля должны быть заполнены!");
   }
 
