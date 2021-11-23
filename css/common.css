@@ -25,5 +25,7 @@ button {
 
 .gallery {
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   list-style: none;
 }
