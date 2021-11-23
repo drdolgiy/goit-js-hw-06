@@ -7,9 +7,13 @@ function onInputChange(event) {
     if (event.target.value.length === 6) {
         textInput.classList.add('valid');
         textInput.classList.remove('invalid');
+
+    } else if (event.target.value.length === 0) {
+        textInput.classList.remove('invalid');
+
     } else {
         textInput.classList.add('invalid');
-        textInput.classList.remove('ivalid');
+        textInput.classList.remove('valid');
     }    
 }
 
