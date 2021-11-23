@@ -1,5 +1,5 @@
 const loginForm = document.querySelector(".login-form");
-console.log(loginForm);
+// console.log(loginForm);
 
 loginForm.addEventListener("submit", onLoginFormClick);
 

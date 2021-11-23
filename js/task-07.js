@@ -1,8 +1,8 @@
 const inputTextControl = document.querySelector('#font-size-control');
-console.log(inputTextControl);
+// console.log(inputTextControl);
 
 const outputText = document.querySelector('#text');
-console.log(outputText);
+// console.log(outputText);
 
 inputTextControl.addEventListener('input', outputTextFontSizeChange);
 
